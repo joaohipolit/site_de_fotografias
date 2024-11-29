@@ -1,4 +1,5 @@
 // Função para abrir o lightbox com a imagem selecionada
+/*java.js*/
 function openLightbox(src) {
     const lightbox = document.getElementById("lightbox");
     const lightboxImage = document.getElementById("lightbox-image");
