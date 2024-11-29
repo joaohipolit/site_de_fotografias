@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Fotografia</title>
+  <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Portfólio de Fotografia</h1>
+    <p>Explorando o mundo através das lentes</p>
+  </header>
+
+  <!-- Galeria de Fotos -->
+  <section class="gallery">
+    <div class="gallery-item">
+      <img src="foto1.jpg" alt="Descrição da Foto 1" onclick="openLightbox(this.src)">
+    </div>
+    <div class="gallery-item">
+      <img src="foto2.jpg" alt="Descrição da Foto 2" onclick="openLightbox(this.src)">
+    </div>
+    <div class="gallery-item">
+      <img src="foto3.jpg" alt="Descrição da Foto 3" onclick="openLightbox(this.src)">
+    </div>
+    <!-- Adicione mais fotos conforme necessário -->
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-image" src="">
+  </div>
+
+  <script src="java.js"></script>
 </body>
 </html>
