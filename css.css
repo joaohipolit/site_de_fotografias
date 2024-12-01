@@ -48,7 +48,8 @@ header p {
   height: 120px; /* Tamanho do círculo */
   border-radius: 50%; /* Torna a imagem circular */
   border: 4px solid #333; /* Adiciona uma borda */
-  margin-right: 20px;
+  margin-right: 20px; /* Espaço entre a imagem e o texto */
+  margin-left: -10px; /* Move a imagem para a esquerda */
   object-fit: cover; /* Garante que a imagem preencha o círculo sem distorção */
 }
 
